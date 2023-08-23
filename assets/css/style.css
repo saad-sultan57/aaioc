@@ -37,6 +37,9 @@ body{
 img,i,button,a{
     cursor: pointer;
   }
+ul {
+    padding-left: 0rem;
+}
 .mynavbar{
     background: var(--green) !important;
     position: sticky;
@@ -437,3 +440,163 @@ font-size: 18px;
 line-height: 30px;
 }
  /*============About Page Start=================*/
+ /*============Judges Page Start=================*/
+
+ .judges .judge-icon{
+    max-width: 150px;
+    
+ }
+ .judges h3{
+    text-align: center;
+    color: var(--green);
+    font-family: 'DMsans-bold';
+    font-size: 40px;
+    font-weight: 700;
+ }
+.judges h4{
+  text-align: center;
+  color: rgba(100, 121, 117, 1);
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+ }
+
+.judge-main{
+    border: 2px solid var(--yellow);
+}
+.judges .judge-box img{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.judge-main h3{
+    text-align: left;
+    color: var(--green);
+    font-size: 32;
+}
+.judge-main h3::after{
+    content: '';
+    
+}
+.judge-main p{
+    color: rgba(100, 121, 117, 1);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+
+ /*============Judges Page End=================*/
+ /*============Suppoert Page Start=================*/
+ /*----------Contact us----------*/ 
+
+ .contact-section a{
+    color: black;
+ }
+
+.contact-section h3{
+    font-size: 32px;
+    color: var(--yellow);
+    line-height: 40px;
+    font-weight: 700;
+}
+.contact-section .iconbox{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section .iconbox i{
+    font-size: 30px;
+}
+.contact-section .left1 .address{
+    display: flex;
+
+    align-items: center;
+}
+
+.contact-section .left1{
+    border: 1px solid #767676;
+    border-radius: 10px;
+    padding: 20px 40px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.contact-section .left1 a{
+  text-decoration: none;
+}
+.contact-section .left1 h4{
+
+    color: #767676;
+    font-size: 17px;
+}
+
+.contact-section .left1:hover{
+    box-shadow: 25px 50px 120px #00000014;
+    border: 1px solid white;
+    transition: 0.5s;
+    
+}
+.contact-section .left1:hover .iconbox{
+    background: var(--green);
+    color: var(--white);
+    border: none;
+    transition: 0.5s;
+
+}
+.contact-section .left1:hover .iconbox a{
+    color: white;
+}
+
+.contact-section .right1{
+    margin-top: 120px;
+}
+
+.contact-section .right1 button:hover{
+  background: white;
+  color: #CA1F26;
+}
+.contact-section .right1 .subbox{
+    background:var(--green);
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.contact-section .right1 .subbox label{
+  
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.contact-section .right1 .subbox input{
+margin-bottom: 10px;
+padding: 14px 20px;
+outline: none;
+}
+
+.form_btn{
+    color: white !important;
+    padding: 19px 23px;
+    color: white;
+    text-decoration: none;
+    background: var(--sage);
+     border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+ /*============Suppoert Page End=================*/
