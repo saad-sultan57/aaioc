@@ -1,4 +1,23 @@
 $(document).ready(function(){
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // owlCarousel
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,

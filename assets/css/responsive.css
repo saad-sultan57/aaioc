@@ -7,8 +7,9 @@
 @media only screen and (max-width:991px) {
 
     /* navbar */
+    
     .navbar-dark .navbar-nav .nav-link:hover:after {
-        width: 0%;
+        width: 0px;
     }
 
     .navbar-nav {
@@ -43,7 +44,27 @@
 }
 
 @media only screen and (max-width:767px) {
-    
+    .c1{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .competition h3 {
+       
+        font-size: 23px;
+        line-height: 33px;
+    }
+    .about-comp{
+        padding: 30px 50px;
+    }
+    .about-comp .bord{
+        border-left: 0px solid var(--green);
+        padding-left:10px ;
+        text-align: center;
+    }
+
 }
 
 @media only screen and (max-width:575px) {
@@ -56,4 +77,5 @@
     .bg-image .img-box img {
         top: -8px
     }
+    
 }

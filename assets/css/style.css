@@ -34,6 +34,9 @@ body{
     --sage:#898121;
     --white:#F7F1E5;
 }
+img,i,button,a{
+    cursor: pointer;
+  }
 .mynavbar{
     background: var(--green) !important;
     position: sticky;
@@ -300,10 +303,7 @@ filter: invert(77%) sepia(30%) saturate(6753%) hue-rotate(10deg) brightness(107%
     z-index: 1;
     position: relative;
   }
-  .section3 button:hover{
-    background: black;
-    color: white;
-  }
+
   .owl-theme .owl-dots {
     display: none;
   }
@@ -359,4 +359,81 @@ filter: invert(77%) sepia(30%) saturate(6753%) hue-rotate(10deg) brightness(107%
     margin-bottom: 0px;
   }
   /*-x-section4-x-*/
-  
+
+  /* footer */
+  .footer{
+    background: var(--green);
+    padding: 45px 35px;
+    border-bottom: 2px solid var(--yellow);
+  }
+  .footer img{
+    width: 138px;
+    height: 174px;
+  }
+  .footer span{
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .footer p{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+
+  .footer ul li{
+    list-style-type: none;
+  }
+  .footer ul li a{
+    text-decoration: none;
+    color: #A88C39;
+  }
+  .footer ul li a:hover{
+    color: var(--yellow);
+  }
+  .copyright{
+    background: var(--green);
+    color: var(--white);
+    padding: 20px;
+   
+  }
+  .copyright p{
+    margin-bottom: 0;
+  }
+  .copyright i{
+    font-size: 30px;
+    margin: 0px 15px;
+  }
+  .copyright i:hover{
+    color: var(--yellow);
+  }
+  .copyright a{
+    text-decoration: none;
+    color: white !important;
+  }
+ /*============About Page Start=================*/
+
+.about-us h3{
+    text-align: center;
+    font-family: 'DMsans-bold';
+    font-weight: 700;
+    font-size: 46px;
+}
+.about-comp .bord{
+    border-left: 10px solid var(--green);
+    padding-left:31px ;
+    text-align: start;
+}
+.about-comp h3{
+    color: var(--green);
+    font-family: 'DMsans-medium';
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.about-comp p{
+color: rgba(100, 121, 117, 1);
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+}
+ /*============About Page Start=================*/
